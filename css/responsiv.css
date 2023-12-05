@@ -1,0 +1,16 @@
+@media only screen  and (max-width:768px){
+ .navbar__nav .fa-bars{
+    display: block;
+ }   
+ .navbar__nav a{
+    display: none;
+ }
+ .header{
+    background-image: url(/img/bgi1.jpg);
+    background-size:cover;
+ }
+ .svet__content, .gaz__content, .contact__content{
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+}
